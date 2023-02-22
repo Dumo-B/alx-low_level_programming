@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * Each Minute - Print each minute of kack Bauer's day
- * from 00:00 to 23:59.
+ * jack_bauer - rint each minute of kack Bauer's day
+ * from first minute of the day to the last one before midnight.
  */
 void jack_bauer(void)
 {
@@ -11,7 +11,7 @@ void jack_bauer(void)
 	for (a = 0; a <= 23; a++)
 	{
 		for (c = 0; c <= 59; c++)
-		{	
+		{
 			_putchar((a / 10) + '0');
 			_putchar((a % 10) + '0');
 			_putchar(':');

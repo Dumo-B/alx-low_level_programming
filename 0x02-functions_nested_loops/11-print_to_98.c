@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * all_natural - prints all numbers from a number to 98.
+ * print_to_98 - prints all numbers from a number to 98.
  * numbers sorted and separated by a comma
  * @k: number passed
  */
