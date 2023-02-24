@@ -1,12 +1,11 @@
-#INCLUDE "main.h"
+#include "main.h"
 
 /**
  * main - tests function that prints if value is positive or negative
- *
  * Return: (o)
  */
 
-in main(void)
+int main(void)
 {
 	int i;
 
