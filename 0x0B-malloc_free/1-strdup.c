@@ -1,4 +1,8 @@
 #include "main.h"
+#include <stddef.h>
+#include <stdlib.h>
+
+
 
 /**
  * _strdup - string duplicator function
@@ -19,7 +23,7 @@ char *_strdup(char *str)
 		return (NULL);
 	while (b < a)
 	{
-		s[j] = str[b];
+		s[b] = str[b];
 		b++;
 	}
 	s[b] = '\0';
